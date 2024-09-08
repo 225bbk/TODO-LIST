@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.accueil{
+    width: 35%;
+    height: 90%;
+    background-color: rgba(100, 210, 218, 0.25);
+    padding: 0 20px;
+}
+.todo{
+    width: 100%;
+    height: 15%;
+    text-align: center;
+}
+.inp{
+    height: 25px;
+    width: 90%;
+    border: none;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    outline: none;
+    background-color: rgba(253, 255, 255, 0.59);
+}
+.in{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+}
+.log{
+    height: 25px;
+    width: 25px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: rgba(253, 255, 255, 0.59);
+}
+.img1{
+    height: 20px;
+    width: 20px;
+    margin-top: 3px;
+}
+.rond{
+    width: 100%;
+    height: 70%;
+}
+.rond1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rond2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rond11{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rond12{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rond21{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rond22{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cercle1{
+    height: 110px;
+    width: 110px;
+    border-radius: 100%;
+    background-color: rgba(14, 179, 208, 0.68);
+    text-align: center;
+}
+.cercle2{
+    height: 110px;
+    width: 110px;
+    border-radius: 100%;
+    background-color: rgba(14, 179, 208, 0.68);
+    text-align: center;
+}
+.cercle3{
+    height: 110px;
+    width: 110px;
+    border-radius: 100%;
+    background-color: rgba(14, 179, 208, 0.68);
+    text-align: center;
+}
+.cercle4{
+    height: 110px;
+    width: 110px;
+    border-radius: 100%;
+    background-color: rgba(14, 179, 208, 0.68);
+    text-align: center;
+}
+.cercle1 img{
+    height: 60px;
+    width: 60px;
+    margin-top: 15px;
+}
+.cercle2 img{
+    height: 60px;
+    width: 60px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.cercle3 img{
+    height: 60px;
+    width: 60px;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.cercle4 img{
+    height: 60px;
+    width: 60px;
+    margin-top: 15px;
+}
+.rond11 .plus{
+    width: 42px;
+    height: 40px;
+    position: absolute;
+    margin-top: 120px;
+}
+.rond12 .plus{
+    width: 42px;
+    height: 40px;
+    position: absolute;
+    margin-top: 120px;
+}
+.rond21 .plus{
+    width: 42px;
+    height: 40px;
+    position: absolute;
+    margin-top: 120px;
+}
+.rond22 .plus{
+    width: 42px;
+    height: 40px;
+    position: absolute;
+    margin-top: 120px;
+}
+.sombre{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 35%;
+    height: 90%;
+    position: absolute;
+    display: none;
+}
+.sombre.active{
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 35%;
+    height: 90%;
+    position: absolute;
+    display: block;
+}
+.retour{
+    width: 100%;
+    height: 10%;
+}
+.inpt{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#inpt{
+    height: 10%;
+    width: 80%;
+    padding: 7px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+    outline: none;
+}
+.fleche{
+    height: 10%;
+    width: 10%;
+    background-color: white;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.retour img{
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.fleche img{
+    height: 30px;
+    width: 30px;
+}

@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(240, 228, 228);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list{
+    height: 90%;
+    width: 35%;
+    background-color: rgba(252, 252, 255, 1);
+}
+.liste1{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    padding-right: 50px;
+}
+.retour2{
+    height: 100%;
+    width: 10%;
+    padding: 10px 10px;
+}
+.retour2 img{
+    height: 30px;
+    width: 30px;
+}
+.titre{
+    height: 100%;
+    width: 90%;
+    text-align: center;
+    padding-top: 7px;
+}
+.titre h1{
+    margin-bottom: 20px;
+}
+.titre p{
+    font-size: 1.5rem;
+}
+.liste2{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.listbleu{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(100, 210, 218, 0.25);
+}
+.tache{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f3c5c5;
+}
+.check{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carre{
+    height: 25px;
+    width: 25px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coche{
+    font-size: 20px;
+    display: none;
+}
+.coche.active{
+    font-size: 20px;
+    display: block;
+}
+.trait{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tache{
+    width: 90%;
+    height: 25px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+.add{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.add img{
+    width: 42px;
+    height: 40px;
+}
+.grand{
+    width: 100%;
+    height: 90%;
+    background: #666161;
+}
