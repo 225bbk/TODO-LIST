@@ -11,12 +11,15 @@ let sombre=document.querySelector(".sombre");
 let fleche=document.querySelector("#fleche");
 let retour=document.querySelector("#retour");
 let accueil=document.querySelector(".accueil");
+let burger=document.querySelector("#burger");
+let croix=document.querySelector("#croix");
+let menu=document.querySelector("#menu");
 
 plus1.addEventListener('click', ()=>{
     sombre.classList.add('active')
 })
 plus2.addEventListener('click', ()=>{
-    sombre.classList.add('active')
+    sombre.classList.add('active');
 })
 plus3.addEventListener('click', ()=>{
     sombre.classList.add('active')
@@ -38,4 +41,11 @@ cercle3.addEventListener('click', ()=>{
 
 fleche.addEventListener('click',()=>{
     window.location.href='./../projetHTML/list.html'
+})
+
+burger.addEventListener('click',()=>{
+    menu.classList.add('active');
+})
+croix.addEventListener('click', ()=>{
+    menu.classList.remove('active');
 })

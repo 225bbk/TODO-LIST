@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>inscription</title>
+    <title>connexion</title>
     <link rel="stylesheet" href="./../projetCSS/connexion.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fenix&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form action="#">
+    <form id="logForm" action="#">
         <div class="entete2">
             <h1>to-do list</h1>
             <p>CONNEXION</p>
@@ -18,18 +18,23 @@
         <div class="input2">
             <label for="email2">Email</label>
             <br>
-            <input type="email" id="email2">
+            <input name="email2" type="email" id="email2" required>
             <br> <br>
             <label for="password2">Mot de passe</label>
             <br>
-            <input type="password" id="password2">
+            <input name="password2" type="password" id="password2" required>
         </div>
         <div class="ins">
-            <a href="./inscription.html">Inscription</a>
+            <a href="./../projetHTML/index.html">Inscription</a>
         </div>
         <div class="bouton2">
             <button id="bouton2">Se connecter</button>
         </div>
+        <div class="message2">
+            <p id="error2">your password is not correct</p>
+        </div>
     </form>
+
+    <script src="./../projetJS/connexion.js"></script>
 </body>
 </html>

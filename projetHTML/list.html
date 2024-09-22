@@ -9,10 +9,10 @@
 <body>
     <div class="list">
         <div class="liste1">
-            <div class="retour2"><img id="retour2" src="./OIP-removebg-preview.png" alt=""></div>
+            <div class="retour2"><img id="retour2" src="./../image/OIP-removebg-preview.png" alt=""></div>
             <div class="titre">
                 <h1>to-do list</h1>
-                <p id="titrelist">Work</p>
+                <input id="titrelist" type="text" placeholder="title">
             </div>
         </div>
         <div class="liste2">
@@ -20,17 +20,20 @@
                 <div class="grand">
                     <div class="tache">
                         <div class="check">
-                            <div id="carre" class="carre">
-                                <p class="coche">&#10003</p>
-                            </div>
+                            <input id="box" type="checkbox">
                         </div>
                         <div class="trait">
                             <input id="tache" type="text">
                         </div>
-                    </div>
+                        <div class="supprime">
+                            <!-- <button onclick="addTask()">add</button> -->
+                            <img id="supprimer" src="./../image/croix-removebg-preview.png" alt="">
+                        </div>
+                        <!-- <ul id="task-list"></ul> -->
+                    </div>    
                 </div>
                 <div class="add">
-                    <img id="plus5" src="./../projetHTML/photo_2024-08-30_13-37-23-removebg-preview.png" alt="">
+                    <img id="plus5" src="./../image/photo_2024-08-30_13-37-23-removebg-preview.png" alt="">
                 </div>
             </div>
         </div>

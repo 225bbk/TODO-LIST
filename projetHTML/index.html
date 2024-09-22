@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fenix&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form action="#">
+    <form id="form" action="#">
         <div class="entete">
             <h1>to-do list</h1>
             <p>INSCRIPTION</p>
@@ -18,25 +18,28 @@
         <div class="input">
             <label for="name">Nom et Prénoms</label>
             <br>
-            <input type="text" id="name">
+            <input type="text" id="userName" required>
             <br> <br>
             <label for="email">Email</label>
             <br>
-            <input type="email" id="email">
+            <input type="email" id="email" required>
             <br> <br>
             <label for="password">Mot de passe</label>
             <br>
-            <input type="password" id="password">
+            <input type="password" id="password" required>
             <br> <br>
             <label for="cpassword">Confirmez le mot de passe</label>
             <br>
-            <input type="password" id="cpassword"> <br>
+            <input type="password" id="cpassword" required> <br>
         </div>
         <div class="conn">
             <a href="./connexion.html">Connexion</a>
         </div>
         <div class="bouton">
             <button id="bouton">S'inscrire</button>
+        </div>
+        <div class="message">
+            <p id="error">your password is not correct</p>
         </div>
     </form>
     <script src="./../projetJS/inscription.js"></script>
