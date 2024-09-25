@@ -1,4 +1,4 @@
-let nom=document.querySelector("#userName");
+/* let nom=document.querySelector("#userName");
 let mail=document.querySelector("#email");
 let motp=document.querySelector("#password");
 let cmotp=document.querySelector("#cpassword");
@@ -14,6 +14,8 @@ btn.addEventListener("click",(e)=>{
     let valmail=mail.value;
     let valmotp=motp.value;
     let valcmotp=cmotp.value;
+    console.log(valnom,valmail,valmotp,valcmotp);
+    
 
     const utilisateur={
         name:valnom,
@@ -36,4 +38,38 @@ btn.addEventListener("click",(e)=>{
         alert("le mot de passe ne correspond pas!");
     }
 })
+ */
+
+
+
+document.getElementById("inscription-form").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    // Récupérer les valeurs des champs
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
+    const cpassword = document.getElementById("cpassword").value;
+
+    // Vérifier si les mots de passe correspondent
+    if (password !== cpassword) {
+        alert("Les mots de passe ne correspondent pas !");
+        return;
+    }
+
+    // Créer un objet d'utilisateur
+    const user = {
+        name: name,
+        email: email,
+        password: password
+    };
+
+    // Stocker l'utilisateur dans le localStorage
+    localStorage.setItem("user", JSON.stringify(user));
+
+    // Afficher un message de succès ou rediriger vers une autre page
+    alert("Inscription réussie !");
+    window.location.href = "./../projetHTML/connexion.html";
+});
+
 
